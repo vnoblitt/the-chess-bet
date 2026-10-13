@@ -1,0 +1,43 @@
+body {
+    background-color: black;
+    color: white;
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: "Roboto", sans-serif;
+}
+
+#title {
+    text-align: center;
+    font-size: 48px;
+    padding-top: 24px;
+    font-family: "Ultra", serif;
+    color: #690F00;
+}
+
+#participants {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.participant {
+    font-size: 32px;
+    padding: 16px;
+}
+
+.rating {
+    font-family: "Ultra", serif;
+}
+
+#countdown {
+    font-size: 60px;
+    font-family: "Ultra", serif;
+    text-align: center;
+    color: #690F00;
+    margin-top: auto;
+    padding-bottom: 24px;
+}

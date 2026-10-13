@@ -1,0 +1,30 @@
+{
+  "name": "the-chess-bet",
+  "version": "1.0.0",
+  "description": "Competition running through the end of 2026 for who will have the most improved ELO from the starting date (10/12).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vnoblitt/the-chess-bet.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/vnoblitt/the-chess-bet/issues"
+  },
+  "homepage": "https://github.com/vnoblitt/the-chess-bet#readme",
+  "devDependencies": {
+    "css-loader": "^7.1.5",
+    "html-loader": "^5.1.0",
+    "html-webpack-plugin": "^5.6.8",
+    "style-loader": "^4.0.0",
+    "webpack": "^5.111.1",
+    "webpack-cli": "^7.2.3",
+    "webpack-dev-server": "^6.0.0"
+  }
+}
