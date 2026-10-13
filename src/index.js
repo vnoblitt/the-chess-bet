@@ -62,7 +62,7 @@ vNum.textContent = vRating;
 vNum.classList.add("rating");
 let vDiff = vRating - V_STARTING_ELO;
 if (vDiff >= 0) vDiff = ` (+${vDiff})`;
-else vDiff = ` (-${vDiff})`;
+else vDiff = ` (${vDiff})`;
 vNum.textContent += vDiff;
 
 const mylesNum = document.createElement("span");
@@ -70,7 +70,7 @@ mylesNum.textContent = mylesRating;
 mylesNum.classList.add("rating");
 let mylesDiff = mylesRating - MYLES_STARTING_ELO;
 if (mylesDiff >= 0) mylesDiff = ` (+${mylesDiff})`;
-else mylesDiff = ` (-${mylesDiff})`;
+else mylesDiff = ` (${mylesDiff})`;
 mylesNum.textContent += mylesDiff;
 
 const dillynNum = document.createElement("span");
@@ -78,7 +78,7 @@ dillynNum.textContent = dillynRating;
 dillynNum.classList.add("rating");
 let dillynDiff = dillynRating - DILLYN_STARTING_ELO;
 if (dillynDiff >= 0) dillynDiff = ` (+${dillynDiff})`;
-else dillynDiff = ` (-${dillynDiff})`;
+else dillynDiff = ` (${dillynDiff})`;
 dillynNum.textContent += dillynDiff;
 
 vStats.append(vPara, vNum);
